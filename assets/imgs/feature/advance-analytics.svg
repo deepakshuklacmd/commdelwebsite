@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="58" viewBox="0 0 60 58">
+  <g id="Group_16430" data-name="Group 16430" transform="translate(-3 -3)">
+    <path id="Path_11065" data-name="Path 11065" d="M13,11H9V22.53a8.922,8.922,0,0,1,4-1.465Z" fill="#f60"/>
+    <path id="Path_11066" data-name="Path 11066" d="M24,43H7a4,4,0,0,0,0,8H24a1,1,0,0,0,1-1V44A1,1,0,0,0,24,43Z" fill="#f60"/>
+    <path id="Path_11067" data-name="Path 11067" d="M14,37H34.53A15.925,15.925,0,0,1,56.5,34.156,4.948,4.948,0,0,0,57,32a5,5,0,0,0-6.969-4.6l-1.039.445-.316-1.085A8.034,8.034,0,0,0,41,21a15.121,15.121,0,0,0-1.752.191l-.793.129-.3-.747a12,12,0,0,0-22.828,1.674l-.19.807-.982-.046C14.106,23,14.054,23,14,23a7,7,0,0,0,0,14ZM27,15a10.008,10.008,0,0,1,2.221.248l-.442,1.95A8.084,8.084,0,0,0,27,17a7.954,7.954,0,0,0-7.8,6.221l-1.95-.442A9.944,9.944,0,0,1,27,15Z" fill="#f60"/>
+    <path id="Path_11068" data-name="Path 11068" d="M41,19a9.837,9.837,0,0,1,2,.211V13H39v4.793a14.083,14.083,0,0,1,.7,1.313A11.345,11.345,0,0,1,41,19Z" fill="#f60"/>
+    <path id="Path_11069" data-name="Path 11069" d="M33,7H29v4.142a13.971,13.971,0,0,1,4,1.2Z" fill="#f60"/>
+    <path id="Path_11070" data-name="Path 11070" d="M23,3H19V13.51a13.9,13.9,0,0,1,4-1.922Z" fill="#f60"/>
+    <path id="Path_11071" data-name="Path 11071" d="M47,33A14,14,0,1,0,61,47,14.015,14.015,0,0,0,47,33Zm0,25A11,11,0,1,1,58,47,11,11,0,0,1,47,58Z" fill="#f60"/>
+    <path id="Path_11072" data-name="Path 11072" d="M28,45a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h3.139a14.458,14.458,0,0,1,0-4Z" fill="#f60"/>
+    <rect id="Rectangle_17344" data-name="Rectangle 17344" width="2" height="2" transform="translate(49 4)" fill="#f60"/>
+    <rect id="Rectangle_17345" data-name="Rectangle 17345" width="10" height="2" transform="translate(53 4)" fill="#f60"/>
+    <rect id="Rectangle_17346" data-name="Rectangle 17346" width="2" height="2" transform="translate(49 8)" fill="#f60"/>
+    <rect id="Rectangle_17347" data-name="Rectangle 17347" width="10" height="2" transform="translate(53 8)" fill="#f60"/>
+    <rect id="Rectangle_17348" data-name="Rectangle 17348" width="2" height="2" transform="translate(49 12)" fill="#f60"/>
+    <rect id="Rectangle_17349" data-name="Rectangle 17349" width="10" height="2" transform="translate(53 12)" fill="#f60"/>
+    <rect id="Rectangle_17350" data-name="Rectangle 17350" width="2" height="2" transform="translate(49 16)" fill="#f60"/>
+    <rect id="Rectangle_17351" data-name="Rectangle 17351" width="10" height="2" transform="translate(53 16)" fill="#f60"/>
+  </g>
+</svg>

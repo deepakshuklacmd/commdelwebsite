@@ -180,6 +180,10 @@ img {
   padding-top: 100px !important;
 }
 
+.pt-50 {
+  padding-top: 50px !important;
+}
+
 @media (max-width: 991px) {
   .pt-100 {
     padding-top: 80px;
@@ -395,7 +399,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   padding-top: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 @media (max-width: 1199px) {
@@ -407,8 +411,8 @@ img {
 }
 
 .list-check li {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   color: var(--black-2);
   position: relative;
   padding-left: 35px;
@@ -425,8 +429,8 @@ img {
   position: absolute;
   content: "\f00c";
   left: 0;
-  width: 25px;
-  height: 25px;
+  width: 23px;
+  height: 23px;
   font-weight: 700;
   font-family: "Font Awesome 6 Free";
   font-size: 16px;
@@ -434,7 +438,7 @@ img {
   border-radius: 100px;
   color: var(--primary);
   text-align: center;
-  line-height: 25px;
+  line-height: 23px;
 }
 
 .list-check-2 {
@@ -7092,6 +7096,7 @@ img {
 /*----------------------------------------*/
 .contact__area {
   position: relative;
+  border: solid 1px #ccc;
 }
 
 .contact__area .bg {
@@ -7384,7 +7389,7 @@ button.accordion-button {
 
 .footer__top {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   position: relative;
   z-index: 2;
 }
@@ -7487,8 +7492,7 @@ footer .footer__widget-title:after {
 
 .footer__btm {
   text-align: left;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 15px 0;
   border-top: 1px solid var(--primary);
   
 }
@@ -7766,7 +7770,7 @@ span.award-logo {
 }
 
 .action-btn {
-  padding: 8px 30px;
+  padding: 8px 20px;
   font-size: 20px;
   text-align: center;
   font-weight: 400;
@@ -9119,10 +9123,177 @@ License Terms
   top: 0;
 }
 
+/* KK 13-05-2025 Start */
+.main_tabs-content{
+  display: flex;
+  justify-content: space-between;
+}
+.side_tabs{
+  width: 25%;  
+}
+.side_tabs ul li{
+  border-bottom: solid 1px #ccc;
+  font-size: 20px;
+}
+.side_tabs ul li a{
+  padding: 10px 10px;
+  font-size: 20px;
+  display: block;
+  transition: border-color 0.50s ease, color 0.50s ease;
+  
+}
+
+.side_tabs ul li a:hover{
+  color: var(--bs-link-hover-color);
+  border-bottom: solid 1px red;
+}
+.side_tabs ul li a.active{
+  color: var(--bs-link-hover-color);
+}
 
 
 
+.tabs_content{
+  width: 70%;
+  border-left: solid 1px #ccc;
+  padding-left: 5%;
+}
+.tabs_content h4{
+  margin-bottom: 30px;
+}
 
+.form-control, .form-select{
+  border: 0 !important;
+  border-bottom: 1px solid #ccc !important;
+  border-radius: 0 !important;
+}
+.fs-12{
+  font-size: 12px;
+}
+.group_input{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.group_input .cout_code{
+  width: 38%;
+}
+
+.main-menu ul li a{
+  display: flex;
+}
+.main-menu ul li a i {
+    padding-right: 0px;
+    font-size: 20px;
+    color: var(--primary);
+}
+.map_section{
+  height: 450px;
+}
+
+.footer__btm p{
+ font-size: 12px;  
+}
+
+
+/* Padding start */
+.pt-40 {
+  padding-top: 40px !important;
+}
+.pt-30 {
+  padding-top: 30px !important;
+}
+.pt-20 {
+  padding-top: 20px !important;
+}
+.pt-10 {
+  padding-top: 10px !important;
+}
+.pb-40 {
+  padding-bottom: 40px !important;
+}
+.pb-30 {
+  padding-bottom: 30px !important;
+}
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+/* Padding end */
+
+.add_sect{
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+}
+.address_box{
+  display: flex;
+  align-items: center;
+}
+.address_icon {
+    background: #f0f0f0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.address_icon i{
+  font-size: 20px;
+  color: var(--primary);
+}
+.address_detail .title{
+ font-size: 14px;
+ color:var(--primary);
+}
+.address_detail .name{
+ font-size: 14px;
+}
+.address_detail p{
+  font-size: 16px;
+}
+.imp_points--title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.imp_points ul {
+  padding-left: 20px;
+}
+
+.imp_points ul li {
+  display: list-item;
+}
+
+.enquiry_form {
+    border: solid 1px #e9e9e9;
+    background: #fafafa;
+    padding:20px 15px;
+}
+.enquiry_form .form-control{
+  background-color: transparent;
+}
+.enquiry_form .form-control:hover, .form-control:focus{
+  background-color: transparent;
+}
+.robot_check{
+  position: relative;
+}
+.robot_check .check_box{
+  position: absolute;
+  top: 24px;
+  left: 10px;
+}
+.robot_check .rc-anchor-content{
+  display: none !important;
+}
+/* KK 13-05-2025 End */
 
 
 
